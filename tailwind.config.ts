@@ -44,17 +44,26 @@ const config: Config = {
           fontFamily:"MontserratAlternates",
           fontSize: '64px', 
             lineHeight: '64px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '72px',
           lineHeight: '72px',
+          },
+        },
+        '.titleS': {
+          fontFamily:"MontserratAlternates",
+          fontSize: '24px', 
+            lineHeight: '24px',
+          '@screen sm': {
+            fontSize: '32px',
+          lineHeight: '32px',
           },
         },
         '.regular1': {
           fontFamily:"Inter-Regular",
           fontSize: '20px', 
             lineHeight: '28px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '24px',
           lineHeight: '32px',
@@ -64,7 +73,7 @@ const config: Config = {
           fontFamily:"Inter-Regular",
           fontSize: '18px', 
           lineHeight: '28px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '20px',
           lineHeight: '32px',
@@ -74,7 +83,7 @@ const config: Config = {
           fontFamily:"Inter-Regular",
           fontSize: '14px', 
             lineHeight: '20px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '16px',
           lineHeight: '24px',
@@ -85,7 +94,7 @@ const config: Config = {
           fontSize: '14px', 
             lineHeight: '20px',
           
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '36px',
           lineHeight: '24px',
@@ -95,7 +104,7 @@ const config: Config = {
           fontFamily:"Inter-Medium",
           fontSize: '14px', 
             lineHeight: '20px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '24px',
           lineHeight: '24px',
@@ -105,7 +114,7 @@ const config: Config = {
           fontFamily:"Inter-Medium",
           fontSize: '14px', 
             lineHeight: '20px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '20px',
           lineHeight: '24px',
@@ -115,7 +124,7 @@ const config: Config = {
           fontFamily:"Inter-Medium",
           fontSize: '14px', 
             lineHeight: '20px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '18px',
           lineHeight: '24px',
@@ -125,7 +134,7 @@ const config: Config = {
           fontFamily:"Inter-Medium",
           fontSize: '14px', 
             lineHeight: '20px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '16px',
           lineHeight: '24px',
@@ -135,7 +144,7 @@ const config: Config = {
           fontFamily:"Inter-Medium",
           fontSize: '12px', 
             lineHeight: '16px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '14px',
           lineHeight: '20px',
@@ -145,7 +154,7 @@ const config: Config = {
           fontFamily:"Inter-SemiBold",
           fontSize: '16px', 
             lineHeight: '28px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '18px',
           lineHeight: '32px',
@@ -155,7 +164,7 @@ const config: Config = {
           fontFamily:"Inter-Bold",
           fontSize: 'px20', 
             lineHeight: '28px',
-          letterSpacing:'4%',
+          letterSpacing:'0.04em',
           '@screen sm': {
             fontSize: '24px',
           lineHeight: '32px',

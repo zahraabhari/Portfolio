@@ -64,20 +64,23 @@ const Items = [
 ];
 const RemoteReps = () => {
   return (
-    <div className="flex flex-col justify-center max-w-[1440px] m-auto py-20 px-[160px] gap-8">
+    <div className="flex flex-col justify-center max-w-[1440px] sm:m-auto py-20 px-4 sm:px-[160px] gap-8">
       <span className="medium1">RemoteReps</span>
       <p className="medium4">
         During my four years at RemoteReps, we have designed a number of
         products for our clients in addition to our own internal products.
         Let&apos;s examine them now.
       </p>
-      <div className="flex items-center flex-wrap justify-between">
+      <div className="flex flex-col sm:flex-row items-center flex-wrap justify-between gap-2">
         {Items.map((item, index) => (
-          <div key={index} className="flex items-center gap-8 w-[33%] mb-4">
-            <div className="flex justify-center items-center w-[128px] h-[80px] bg-gray1000 rounded-[8px]">
+          <div
+            key={index}
+            className="flex items-center gap-4 w-full sm:w-[calc(33.33%-8px)] mb-4 group transition-all duration-300 cursor-pointer hover:rounded-lg hover:bg-[#0d0d0d]"
+          >
+            <div className="flex justify-center items-center w-[128px] h-[80px] bg-gray1000 rounded-[8px] group-hover:bg-[#1f1e25]">
               <Image src={item.image} alt={item.title} width={48} height={48} />
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col pr-2">
               <span className="semi-bold">{item.title}</span>
               <span className="regular3 text-gray400">{item.description}</span>
             </div>

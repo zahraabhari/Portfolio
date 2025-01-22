@@ -62,3 +62,9 @@ body {
   font-style: normal;
   font-display: swap;
 }
+.trapezoid {
+  clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+  @media only screen and (max-width: 640px){
+    clip-path: polygon(0 88%, 100% 0, 100% 100%, 0% 100%);
+  }
+}
