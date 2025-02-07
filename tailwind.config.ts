@@ -38,7 +38,8 @@ const config: Config = {
     
   },
   plugins: [
-    function ({ addComponents }) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    function ({ addComponents }:{addComponents: any}) {
       const typography = {
         '.title': {
           fontFamily:"MontserratAlternates",

@@ -28,7 +28,9 @@ const Experiences = () => {
             {item.role.map((role, index) => (
               <div className="flex flex-col " key={"ROLE_" + index}>
                 <div className="flex items-center gap-8">
-                  <div className="w-4 h-4 rounded-full bg-white" />
+                  {item.role.length > 1 && (
+                    <div className="w-4 h-4 rounded-full bg-white" />
+                  )}
                   <div className="flex flex-col sm:flex-row items-center">
                     <span className="inter-bold">{role.title}</span>
                     <span className="regular3 text-gray50">{role.date}</span>
